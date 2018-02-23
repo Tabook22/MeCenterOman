@@ -9,7 +9,7 @@
 }
 
 .news-cotnet{
-  
+
 }
 
 .navbar-inverse{
@@ -17,3 +17,74 @@
 
 }
 
+/* Our Previous Work*/
+.ourwork{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:auto;
+  grid-gap:20px;
+}
+
+.ourwork{
+  margin:2rem 0;
+}
+
+.pre-work-events{
+    grid-column:1/4;
+    grid-row:auto;
+}
+
+.pre-work-events {
+
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top:2rem;
+  border-top:1px solid #e2e3e7;
+
+}
+
+
+.work-container{
+  /*background-color:rgba(239, 240, 244,0.5);
+  border:1px solid #e2e3e7;*/
+  padding:5px;
+}
+
+.work-details img{
+  max-height:100%;
+  max-width:100%;
+}
+/* speakers */
+.speakers-container{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:auto;
+  grid-gap:20px;
+}
+
+.speakers-container{
+margin-top:2rem;
+padding-top:2rem;
+border-top:1px solid #e2e3e7;
+}
+
+.s-cont-title{
+  grid-column:1/4;
+  grid-row:auto;
+}
+
+.s-cont-title{
+  text-align:center;
+  padding-bottom:2rem;
+}
+
+.speakers-details {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:auto;
+}
+
+.speakers-details .sinfo{
+  padding-left:0.8rem;
+  padding-right:2rem;
+}
