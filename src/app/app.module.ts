@@ -11,6 +11,11 @@ import { PostCenterComponent } from './post-center/post-center.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { ConfComponent } from './conf/conf.component';
+import { SpeakersComponent } from './speakers/speakers.component';
+import { PreworkComponent } from './prework/prework.component';
+import { PreattendeesComponent } from './preattendees/preattendees.component';
 
 
 @NgModule({
@@ -20,7 +25,12 @@ import { FooterComponent } from './footer/footer.component';
     PostCenterComponent,
     PostListComponent,
     PostDetailComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent,
+    ConfComponent,
+    SpeakersComponent,
+    PreworkComponent,
+    PreattendeesComponent
   ],
   imports: [
     BrowserModule,

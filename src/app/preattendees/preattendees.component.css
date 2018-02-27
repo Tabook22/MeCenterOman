@@ -1,0 +1,79 @@
+/* Previous Attendees */
+
+.our-attendees {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.our-attendees {
+  margin: 2rem 0;
+  background-color: #fff;
+}
+
+.pre-attendees-container {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative
+}
+
+.pre-attendees-container .pre-attendees-title {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  background-color: #1893DA;
+  min-width: 12rem;
+}
+
+.pre-attendees-container .pre-attendees-title h2 {
+  text-align: right;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+}
+
+.attendees-container {
+  /*background-color:rgba(239, 240, 244,0.5);
+  border:1px solid #e2e3e7;*/
+  padding: 5px;
+}
+
+.attendees-details img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.attendees-details a,
+a:link {
+  color: #222;
+}
+
+.attendees-details a:hover {
+  color: #222;
+  font-size: 1.4rem;
+  transition: font-size 0.5s ease;
+}
+
+.attendees-details p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  text-align: center;
+  color: #222;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+
+.at-img {
+  min-width: 80px;
+  min-height: 80px;
+}
+

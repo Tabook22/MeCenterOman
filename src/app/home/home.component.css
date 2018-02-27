@@ -1,8 +1,49 @@
-.contents{
-    margin-top:10px;
-    background-color:rgba(255, 255, 255, 0.5);;
-    padding-top:20px;
+container{
 }
+
+.contents{
+
+    background-color:rgba(255, 255, 255, 0.5);;
+    padding-top:10px;
+}
+/* .hd{
+  margin-left:0;
+  margin-right:0;
+}
+.title-container {
+ padding-top:10px;
+}
+.navbar-inverse {
+  background-color: #373f46;
+}
+
+.navbar {
+  width: 35rem;
+  text-align: right;
+}
+
+
+.header-comment {
+  font-size: 1.2rem;
+  list-style: none;
+  float:left;
+
+}
+.gm-img{
+  float:left;
+  }
+
+.header-comment li {
+  padding-right: 10px;
+  color:#666b77;
+}
+
+.header-comment li span {
+  color: #666b77;
+}
+
+ */
+
 .subadv{
     width:263px;
     height:418px;
@@ -12,239 +53,10 @@
 
 }
 
-.navbar-inverse{
-    background-color:#373f46;
-
-}
-/* conference details */
+/* conference details
 .conf-details{
   background-color:#fff;
   margin: 0px;
   margin-bottom:8rem;
 
-}
-
-/* Our Previous Work*/
-.ourwork{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows:auto;
-  grid-gap:20px;
-}
-
-.ourwork{
-  margin:2rem 0;
-}
-
-.pre-work-container {
-  margin-top: 10rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative
-}
-
-.pre-work-container .pre-work-title {
-  position: absolute;
-  right: 0;
-  top: 3px;
-  background-color: #1893DA;
- min-width:12rem;
-}
-
-.pre-work-container .pre-work-title h2 {
-  text-align:right;
-  color: #fff;
-  font-size: 1.6rem;
-  padding: 0 1rem;
-}
-
-
-.work-container{
-  /*background-color:rgba(239, 240, 244,0.5);
-  border:1px solid #e2e3e7;*/
-  padding:5px;
-}
-
-.work-details img{
-  max-height:100%;
-  max-width:100%;
-}
-
-.work-details a,a:link{
-color:#222;
-}
-
-.work-details a:hover {
-  color: #222;
-  font-size:1.4rem;
-
-  transition: font-size 0.5s ease;
-
-
-}
-
-.work-details p{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-
-  height:5rem;
-  text-align:center;
-  color:#222;
-  font-size:1.2rem;
-  background-color:#fff;
-
-}
-
-.w-img{
-  min-width:357px;
-  min-height:237px;
-}
-
-/* Previous Attendees */
-.our-attendees {
-  display: grid;
-  grid-template-columns:repeat(8,1fr);
-  grid-template-rows: auto;
-  grid-gap: 20px;
-}
-
-.our-attendees {
-  margin: 2rem 0;
-  background-color:#fff;
-}
-
-.pre-attendees-container {
-  margin-top: 10rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative
-}
-
-.pre-attendees-container .pre-attendees-title {
-  position: absolute;
-  right: 0;
-  top: -20px;
-  background-color: #1893DA;
-  min-width: 12rem;
-}
-
-.pre-attendees-container .pre-attendees-title h2 {
-  text-align: right;
-  color: #fff;
-  font-size: 1.6rem;
-  padding: 0 1rem;
-}
-
-.attendees-container {
-  /*background-color:rgba(239, 240, 244,0.5);
-  border:1px solid #e2e3e7;*/
-  padding: 5px;
-}
-
-.attendees-details img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.attendees-details a,
-a:link {
-  color: #222;
-}
-
-.attendees-details a:hover {
-  color: #222;
-  font-size: 1.4rem;
-  transition: font-size 0.5s ease;
-}
-
-.attendees-details p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 5rem;
-  text-align: center;
-  color: #222;
-  font-size: 1.2rem;
-  background-color: #fff;
-}
-
-.at-img {
-  min-width: 80px;
-  min-height: 80px;
-}
-
-
-
-/* speakers */
-.speakers-container{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  grid-template-rows:auto;
-  grid-gap:20px;
-}
-
-.speakers-container{
-margin-top:2rem;
-padding-top:2rem;
-/* border-top:1px solid #e2e3e7; */
-}
-
-
-
-.s-cont-container{
-    margin-top:4rem;
- display: -webkit-box;
- display: -moz-box;
- display: -ms-flexbox;
- display: -webkit-flex;
- display: flex;
- align-items: center;
- justify-content: center;
-position:relative
-}
-
-.s-cont-container .s-cont-title{
-  position:absolute;
-  right:0;
-  top:3px;
-  background-color:#1893DA;
-min-width:12rem;
-
-}
-.s-cont-container .s-cont-title h2 {
-  color:#fff;
-  font-size:1.6rem;
-  padding:0 1rem;
-}
-
-.speakers-details {
-display:grid;
-grid-template-columns:1fr 2fr;
-grid-template-rows:9rem;
-}
-
-.speakers-details .sinfo{
-  padding:1rem;
-  background-color:#fff;
-}
-
-.speakers-details .simg img{
-  max-width:100%;
-  max-height:100%;
-}
-.speakers-details .simg img {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
+} */
