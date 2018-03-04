@@ -41,13 +41,15 @@
 
 .speakers-details {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 9rem;
 }
 
 .speakers-details .sinfo {
   padding: 1rem;
-  background-color: #fff;
+  background-color: #f1f1f1;
+  text-align:right;
+
 }
 
 .speakers-details .simg img {

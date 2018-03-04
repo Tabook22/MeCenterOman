@@ -11,27 +11,27 @@
   background-color: #373f46;
 }
 
-.navbar {
-  width: 35rem;
-  text-align: right;
+.nav-wrapper {
+  display:flex;
+  height:6rem;
+  width:100%;
+  justify-content:right;
+  align-self: center;
 }
 
-.header-comment {
-  font-size: 1.2rem;
-  list-style: none;
-  float: left;
+.nav-lstcontainer{
+  margin:0;
+  padding:0;
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-self: center;
+
 }
 
-.gm-img {
-  float: left;
-}
+.nav-lstcontainer li{
+  display:inline-block;
+  padding:0 10px;
+  border-left:1px solid #E8F0F3;
 
-.header-comment li {
-  padding-right: 10px;
-  color: #666b77;
 }
-
-.header-comment li span {
-  color: #666b77;
-}
-
