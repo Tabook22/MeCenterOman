@@ -1,3 +1,43 @@
+.conf-wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto;
+  grid-gap:20px;
+}
+
+.conf-img{
+  grid-column:1/3;
+}
+
+.conf-img img{
+  max-height:100%;
+  max-width:100%;
+}
+
+.conf-details{
+  grid-column:1/3;
+}
+.conf-details .details-wrapper {
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  grid-gap:20px;
+}
+
+.conf-details .details-wrapper{
+  padding:10px;
+}
+
+.conf-details .details-wrapper .news-cotnet img {
+width:8rem; padding:5px 0;
+}
+.conf-details .details-wrapper img {
+
+  max-height:100%;
+  max-width:250px;
+}
+
+
+
 /* conference details */
 
 .conf-details {
@@ -5,3 +45,58 @@
   margin: 0px;
   margin-bottom: 8rem;
 }
+
+/* media queries */
+
+@media only screen and (min-width: 736px) {
+  .speakers-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+  .speakers-details .sinfo {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 735.97px) {
+  .speakers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .speakers-details .sinfo {
+    font-size: 1rem;
+  }
+  .conf-details {
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 413.97px) {
+  .conf-details .details-wrapper .news-cotnet span{
+display:none;
+
+  }
+
+  .conf-details .details-wrapper .news-cotnet img {
+  width:5rem; padding:5px 0;
+
+  }
+.conf-details .details-wrapper .reg-img img {
+  width:18rem;
+  padding:5px 0;
+}
+
+
+.conf-details {
+  margin-bottom: 1rem;
+}
+
+
+}
+

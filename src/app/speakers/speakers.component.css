@@ -52,13 +52,63 @@
 
 }
 
+.speakers-details .sinfo span:nth-child(1) {
+  display:inline-block;
+  font-weight:bold;
+  color:#1893DA;
+}
+
+
+.speakers-details .sinfo span:nth-child(2) {
+display:inline-block;
+}
+
 .speakers-details .simg img {
   max-width: 100%;
   max-height: 100%;
 }
 
-.speakers-details .simg img {
+/* .speakers-details .simg img {
   min-width: 3rem;
   min-height: 3rem;
+} */
+
+/* media queries */
+
+@media only screen and (min-width: 736px) {
+  .speakers-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+  }
+  .speakers-details .sinfo{
+font-size:1rem;
+
+  }
 }
+
+
+@media only screen and (min-width: 414px) and (max-width: 735.97px) {
+  .speakers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .speakers-details .sinfo {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 413.97px){
+  .speakers-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+}
+
+
 
