@@ -16,6 +16,9 @@ import { ConfComponent } from './conf/conf.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { PreworkComponent } from './prework/prework.component';
 import { PreattendeesComponent } from './preattendees/preattendees.component';
+import { PwDetailsComponent } from './pw-details/pw-details.component';
+import { AboutComponent } from './about/about.component';
+import { AgendaComponent } from './agenda/agenda.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { PreattendeesComponent } from './preattendees/preattendees.component';
     ConfComponent,
     SpeakersComponent,
     PreworkComponent,
-    PreattendeesComponent
+    PreattendeesComponent,
+    PwDetailsComponent,
+    AboutComponent,
+    AgendaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,27 @@
+.agenda-wrapper {
+  margin-top:40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.contents {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+}
+
+.agenda-contents {
+  grid: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #fff;
+  padding: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.agenda-contents img {
+max-height:100%;
+max-width:100%;
+
+}
+

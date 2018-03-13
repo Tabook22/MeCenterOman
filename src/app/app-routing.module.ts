@@ -1,12 +1,16 @@
 import { HomeComponent } from './home/home.component';
 import { PostCenterComponent } from './post-center/post-center.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PwDetailsComponent } from './pw-details/pw-details.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'posts', component: PostCenterComponent}
+  { path: 'about', component: AboutComponent },
+  {path: 'posts', component: PostCenterComponent},
+  {path: 'workDetails', component: PwDetailsComponent}
 ];
 
 @NgModule({
