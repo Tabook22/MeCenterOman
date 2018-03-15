@@ -19,8 +19,10 @@ import { PreattendeesComponent } from './preattendees/preattendees.component';
 import { PwDetailsComponent } from './pw-details/pw-details.component';
 import { AboutComponent } from './about/about.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { VideosComponent } from './videos/videos.component';
 
-
+import {MyFilterPipeVideo1} from './filters/video.pipe1';
+import { MyFilterPipeVideo2 } from './filters/video.pipe2';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +38,10 @@ import { AgendaComponent } from './agenda/agenda.component';
     PreattendeesComponent,
     PwDetailsComponent,
     AboutComponent,
-    AgendaComponent
+    AgendaComponent,
+    VideosComponent,
+    MyFilterPipeVideo1,
+    MyFilterPipeVideo2
   ],
   imports: [
     BrowserModule,

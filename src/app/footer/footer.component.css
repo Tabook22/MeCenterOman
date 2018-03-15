@@ -21,7 +21,7 @@
     color:#666b77;
 
 }
-
+.footer-comment .s-logo{width:200px;}
 /** Social Icons */
 .wrp {
     text-align: center;
@@ -146,4 +146,15 @@
     100% {
       color: #fff;
     }
+  }
+@media only screen and (min-width: 400px) and (max-width: 735.97px) {
+ .footer-comment .s-logo {
+   width: 100px;
+ }
+
+}
+@media only screen and (max-width: 399.97px) {
+
+
+
   }

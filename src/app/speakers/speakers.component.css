@@ -77,6 +77,7 @@ display:inline-block;
 
 @media only screen and (min-width: 736px) {
   .speakers-container {
+    direction: rtl;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
@@ -85,11 +86,25 @@ display:inline-block;
 font-size:1rem;
 
   }
+.s-cont-container .s-cont-title {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  background-color: #1893DA;
+  min-width: 1rem;
+}
+
+.s-cont-container .s-cont-title h2 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
 }
 
 
-@media only screen and (min-width: 414px) and (max-width: 735.97px) {
+@media only screen and (min-width: 400px) and (max-width: 735.97px) {
   .speakers-container {
+    direction: rtl;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -98,15 +113,41 @@ font-size:1rem;
   .speakers-details .sinfo {
     font-size: 1rem;
   }
+.s-cont-container .s-cont-title {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  background-color: #1893DA;
+  min-width: 1.1rem;
+}
+
+.s-cont-container .s-cont-title h2 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
 
 }
 
-@media only screen and (max-width: 413.97px){
+@media only screen and (max-width: 399.97px){
   .speakers-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
+.s-cont-container .s-cont-title {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  background-color: #1893DA;
+  min-width: 1rem;
+}
+
+.s-cont-container .s-cont-title h2 {
+  color: #fff;
+  font-size: 1.2rem;
+
+}
 
 }
 

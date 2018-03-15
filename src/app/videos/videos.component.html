@@ -1,0 +1,27 @@
+<div class="container contents">
+<div id="video-wrapper">
+  <div class="video-contents" dir="rtl">
+    <div class="main-video">
+      <div class="video-contents" *ngFor='let item of videoList | myfilter1:filterargs'>
+        <h3 [innerHTML]='item.name'></h3>
+        <p [innerHTML]='item.slug'></p>
+        <iframe class="vd-main" [src]="getEmbedUrl(item)" frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <div class="video-list">
+    <div class="vd-contents" *ngFor='let item of videoList | myfilter2:filterargs2'>
+      <div class="vb-sub-info">
+        <h3 [innerHTML]='item.name'>
+        </h3>
+        <p [innerHTML]='item.slug'>
+        </p>
+      </div>
+
+      <iframe class="vd-sub-cont" [src]="getEmbedUrl(item)" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+</div>
