@@ -1,14 +1,16 @@
-<div class="container contents">
+<!-- <div class="container contents"> -->
 <div id="video-wrapper">
-  <div class="video-contents" dir="rtl">
-    <div class="main-video">
-      <div class="video-contents" *ngFor='let item of videoList | myfilter1:filterargs'>
-        <h3 [innerHTML]='item.name'></h3>
-        <p [innerHTML]='item.slug'></p>
+  <div class="video-contents" dir="rtl" *ngFor='let item of videoList | myfilter1:filterargs'>
+    <div class="main-video-info">
+      <h3 [innerHTML]='item.name'></h3>
+      <p [innerHTML]='item.slug'></p>
+    </div>
+      <div class="main-video">
+
         <iframe class="vd-main" [src]="getEmbedUrl(item)" frameborder="0" allowfullscreen>
         </iframe>
       </div>
-    </div>
+
   </div>
   <div class="video-list">
     <div class="vd-contents" *ngFor='let item of videoList | myfilter2:filterargs2'>
@@ -24,4 +26,4 @@
     </div>
   </div>
 </div>
-</div>
+<!-- </div> -->
